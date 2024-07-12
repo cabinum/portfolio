@@ -65,7 +65,7 @@ ul li{
 }
 
 .col2 nav{
-    width: 100%;
+    width: auto;
     position: fixed;
     background-color: lightcyan;
 }
