@@ -89,8 +89,6 @@ ul li{
 
 .centener{
     font-family: cursive;
-    display: flex;
-    justify-content: center;
     background-image: url(bc/pexels-ann-h-45017-14936124.jpg);
     background-size: cover;
     padding: 25%;
@@ -99,19 +97,6 @@ ul li{
 .centener .coly{
     width: 30%;
     padding: 0vh 2vh 0vh 2vh;
-}
-
-.coly img{
-    width: 120%;
-}
-
-.coly h1{
-    margin-top: 17vh;
-    color: green;
-}
-
-.coly p{
-    text-align: center;
 }
 
 .cla{
@@ -425,8 +410,9 @@ footer {
     
     .centener{
         padding: 2vh;
-        display: block;
-        justify-content: center;
+        background-image: url(bc/pexels-ann-h-45017-14936124.jpg);
+        background-size: cover;
+        padding: 25%;
     }
     
     .centener .coly{
