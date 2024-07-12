@@ -381,8 +381,8 @@ footer {
     }
     
     .col2 nav{
-        width: 98%;
-        padding: 2px;
+        width: 97%;
+        padding: 1px;
         position: unset;
         display: block;
         margin-left: 0vh;
@@ -393,7 +393,7 @@ footer {
         display: flex;
         justify-content: unset;
         overflow: scroll;
-        gap: 2px;
+        gap: 1px;
     }
     
     .col2 nav ul li{
