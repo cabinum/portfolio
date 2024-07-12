@@ -381,6 +381,7 @@ footer {
     }
     
     .col2 nav{
+        width: 98%;
         padding: 2px;
         position: unset;
         display: block;
