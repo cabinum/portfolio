@@ -65,7 +65,7 @@ ul li{
 }
 
 .col2 nav{
-    width: auto;
+    width: 100%;
     position: fixed;
     background-color: lightcyan;
 }
@@ -381,7 +381,7 @@ footer {
     }
     
     .col2 nav{
-        width: 97%;
+        width: auto;
         padding: 1px;
         position: unset;
         display: block;
