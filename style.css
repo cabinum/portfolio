@@ -26,7 +26,6 @@ body{
 
 .col1{
     display: block;
-    overflow-y: scroll;
     padding: 1vh;
     position: fixed;
     overflow: hidden;
@@ -405,7 +404,7 @@ footer {
     .bit a{
         background-color: cadetblue;
         width: 100%;
-        padding: 2vh;
+        padding: 1vh;
         font-family: Geneva, Tahoma, sans-serif;
     }
     
@@ -416,7 +415,7 @@ footer {
     .heade{
         margin-top: 2vh;
         display: flex;
-        margin: auto;
+        margin: unset;
         border-radius: 3vh;
         width: 950%;
         gap: 0vh;
