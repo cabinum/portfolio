@@ -414,10 +414,10 @@ footer {
     
     .heade{
         margin-top: 2vh;
-        display: inline-block;
+        display: flex;
         margin: auto;
         border-radius: 3vh;
-        width: 90%;
+        width: 95%;
         gap: 0vh;
     }
     
