@@ -414,7 +414,7 @@ footer {
     
     .heade{
         margin-top: 2vh;
-        display: flex;
+        display: inline-block;
         margin: auto;
         border-radius: 3vh;
         width: 90%;
