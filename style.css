@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     cursor: cell;
+    background-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -64,39 +65,55 @@ ul li{
     height: auto;
 }
 
-.col2 nav{
+.bit{
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.bit a{
+    background-color: cadetblue;
     width: 100%;
-    position: fixed;
+    padding: 2vh;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+header{
     background-color: lightcyan;
 }
 
-.col2 nav ul{
+.heade{
+    margin-top: 2vh;
     display: flex;
+    margin: auto;
+    border-radius: 3vh;
+    width: 40%;
+    gap: 1vh;
 }
 
-.col2 nav ul li{
-    text-align: center;
-    padding: 1vh;
-    list-style-type: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    color: blue;
+.he1{
+    padding: 2vh;
+    font-family: Geneva, Tahoma, sans-serif;
 }
+
+.he1 p{
+    text-align: center;
+    background-color: blue;
+    padding: 1vh;
+    color: white;
+    border-radius: 2vh;
+}
+
 
 .alll{
-    margin-top: 10vh;
+    margin-top: 0vh;
 }
 
 .centener{
-    font-family: cursive;
+    display: flex;
+    justify-content: center;
     background-image: url(bc/pexels-ann-h-45017-14936124.jpg);
     background-size: cover;
     padding: 25%;
-}
-
-.centener .coly{
-    width: 30%;
-    padding: 0vh 2vh 0vh 2vh;
 }
 
 .cla{
@@ -216,11 +233,11 @@ button{
 }
 
 .proj{
-    background-color: lightcyan;
+    background-color: white;
 }
 
 .conteneur{
-    background-color: lightcyan;
+    background-color: white;
     display: flex;
     justify-content: center;
     gap: 2vh;
@@ -379,61 +396,56 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    .bit{
+        margin-top: 3vh;
+        text-align: center;
+    }
     
-    .col2 nav{
-        width: auto;
-        padding: 1px;
-        position: unset;
-        display: block;
-        margin-left: 0vh;
+    .bit a{
+        background-color: cadetblue;
+        width: 100%;
+        padding: 2vh;
+        font-family: Geneva, Tahoma, sans-serif;
+    }
+    
+    header{
         background-color: lightcyan;
     }
     
-    .col2 nav ul{
+    .heade{
+        margin-top: 2vh;
         display: flex;
-        justify-content: unset;
-        overflow: scroll;
-        gap: 1px;
+        margin: auto;
+        border-radius: 3vh;
+        width: 100%;
+        gap: 0vh;
     }
     
-    .col2 nav ul li{
-        text-align: center;
+    .he1{
         padding: 1vh;
-        list-style-type: none;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: bold;
-        color: blue;
+        font-family: Geneva, Tahoma, sans-serif;
+    }
+    
+    .he1 p{
+        text-align: center;
+        background-color: blue;
+        padding: 1vh;
+        color: white;
+        border-radius: 2vh;
     }
     
     .alll{
-        margin-top: 0vh;
+        margin-top: 2vh;
     }
     
     .centener{
-        padding: 2vh;
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
         background-image: url(bc/pexels-ann-h-45017-14936124.jpg);
         background-size: cover;
         padding: 25%;
-    }
-    
-    .centener .coly{
-        text-align: center;
-        width: 100%;
-        padding: 0vh 0vh 0vh 0vh;
-    }
-    
-    .coly img{
-        width: 100%;
-    }
-
-    .coly p{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    .coly h1{
-        font-family: monospace;
-        margin-top: 0vh;
-        color: green;
     }
     
     .cla{
@@ -574,22 +586,6 @@ footer {
         display: block;
         margin: auto;
     }
-    
-    .proj{
-        background-color: lightcyan;
-    }
-
-    .conteneur{
-        background-color: lightcyan;
-    }
-
-    /*.conteneur{
-        background-color: #191a1a;
-        display: flex;
-        justify-content: center;
-        gap: 2vh;
-        padding: 2vh;
-    }*/
     
     .lol{
         width: 50%;
